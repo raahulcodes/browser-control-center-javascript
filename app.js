@@ -46,3 +46,14 @@ let timer = window.setInterval(function()
         {    
     i--;}
 }, 1000)
+
+// timer cancellation
+console.log("Action Scheduled!")
+let timer_new = window.setTimeout(function()
+{
+    console.log("Action Scheduled!!");
+}, 5000);
+window.setTimeout(function(){
+    window.clearTimeout(timer_new);
+    console.log("Action Cancelled!");
+},2000)
