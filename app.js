@@ -57,3 +57,15 @@ window.setTimeout(function(){
     window.clearTimeout(timer_new);
     console.log("Action Cancelled!");
 },2000)
+
+// browser dialogs
+let user_response = confirm("You want to continue?");
+if(user_response)
+{
+    let username = prompt("Enter your Name!");
+    console.log("Welcome " + username);
+}
+else 
+{
+    console.log("Thanks for cancelling!");
+}
