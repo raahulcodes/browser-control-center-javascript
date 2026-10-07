@@ -31,3 +31,18 @@ console.log(window.location.replace("https://jiohotstar.com");
 // new window controller
 let myWindow = window.open("https://hubstackrealm.com", "hubstackrealm");
 myWindow.close();
+
+// countdown timer
+let i =5;
+let timer = window.setInterval(function()
+{
+    console.log(i);
+    if(i==1)
+    {
+        window.clearInterval(timer);
+        console.log("Time's Up!");
+    }
+    else 
+        {    
+    i--;}
+}, 1000)
