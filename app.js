@@ -69,3 +69,8 @@ else
 {
     console.log("Thanks for cancelling!");
 }
+
+// browser history
+history.back();
+history.forward();
+history.go(2);
