@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 1170px;
+    height: auto;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, a
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.mt-10
+{
+    margin-top: 10px;
+}
+
+.p-10
+{
+    padding: 10px 0;
+}
+
+.p-20
+{
+    padding: 20px;
+}
+
+.heading-section
+{
+    text-align: center;
+}
+
+.button-section
+{
+    text-align: center;
+}
+
+.explore-buttons
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.info-card
+{
+    width: 30%;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.info-card-img
+{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.explore-btn 
+{
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid black;
+    display: inline-block;
+    color: white;
+    background-color: black;
+}
+
+footer 
+{
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 20px 0;
+    max-height: 50px;
+}
