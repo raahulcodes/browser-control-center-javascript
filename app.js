@@ -29,6 +29,26 @@ console.log("Screen Available Width: " + window.screen.availWidth + "px. Screen 
 console.log("Browser Language: " + window.navigator.language + " Online Status: " + window.navigator.onLine? "Online":"Offline");
 console.log("Current Date: " + date.toDateString() + ". Current Time: " + date.getHours()+ ":" + date.getMinutes());
 
+// creating a delayed message and a repeating countdown
+let timer = window.setTimeout(function(){console.log("Hello World")}, 5000);
+
+    let i=5;
+
+let countdown = window.setInterval(function()
+{
+    console.log(i);
+    i--;
+
+    if(i<1)
+    {
+        window.clearInterval(countdown);
+    }
+
+},1000);
+
+
+
+// navigationg to another link after confirmation
 let visit_Url = confirm("You want to visit a new Url");
 if(visit_Url)
 {
